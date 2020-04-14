@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>购物车</title>
+    <script type="text/javascript"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body style="margin: 100px;">
+
+<a href="/JEEP/shoppingcar?name=手机">添加到购物车</a>
+
+<img id="ssss" alt="验证码" src="/JEEP/code" title="看不清楚重试"
+     onclick="changeImg(this)">
+</body>
+<script type="text/javascript">
+    function changeImg(obj) {
+        obj.src = "/JEEP/code?a=" + Math.random(250);
+    }
+</script>
+
+</html>

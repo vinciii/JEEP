@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jeep">
+    <output-path>$PROJECT_DIR$/out/artifacts/jeep</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JEEP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="c3p0-0.9.5.2.jar" module-name="JEEP" />
+          <element id="library" level="module" name="commons-dbutils-1.7.jar" module-name="JEEP" />
+          <element id="library" level="module" name="log4j-1.2.12.jar" module-name="JEEP" />
+          <element id="library" level="module" name="mysql-connector-java-8.0.18.jar" module-name="JEEP" />
+          <element id="library" level="module" name="WebContent/WEB-INF/lib/c3p0-0.9.5.2.jar" module-name="JEEP" />
+          <element id="library" level="module" name="WebContent/WEB-INF/lib/commons-dbutils-1.7.jar" module-name="JEEP" />
+          <element id="library" level="module" name="WebContent/WEB-INF/lib/log4j-1.2.12.jar" module-name="JEEP" />
+          <element id="library" level="module" name="mchange-commons-java-0.2.11.jar" module-name="JEEP" />
+          <element id="library" level="module" name="WebContent/WEB-INF/lib/mysql-connector-java-8.0.18.jar" module-name="JEEP" />
+          <element id="library" level="module" name="junit4" module-name="JEEP" />
+          <element id="library" level="project" name="commons-beanutils-1.9.4" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JEEP/web/Web" />
+    </root>
+  </artifact>
+</component>
